@@ -86,9 +86,9 @@ function Table() {
               <td>{client.pan}</td>
               <td>{client.country}</td>
               <td className='td-eid'>
-                <button>Edit</button>
-                <button>Invoice</button>
-                <button>Delete</button>
+                <button className='btn-edt'>Edit</button>
+                <button className='btn-invc'>Invoice</button>
+                <button className='btn-del'>Delete</button>
               </td>
             </tr>
           ))}

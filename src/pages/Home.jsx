@@ -86,8 +86,8 @@ function Home() {
           <div className="col2-content-tab">
             <div className="col2-content-tab1"
               style={{
-                textDecoration:
-                  activeTab === "Active Clients" ? "underline" : "none",
+                color:
+                  activeTab === "Active Clients" ? "blue" : "black",
               }}
               onClick={() => setActiveTab("Active Clients")}
             >
@@ -96,8 +96,8 @@ function Home() {
 
             <div className="col2-content-tab2"
               style={{
-                textDecoration:
-                  activeTab === "Deleted Clients" ? "underline" : "none",
+                color:
+                  activeTab === "Deleted Clients" ? "blue" : "black",
               }}
               onClick={() => setActiveTab("Deleted Clients")}
             >
